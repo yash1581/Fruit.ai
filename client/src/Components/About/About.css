@@ -1,0 +1,41 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.About-Main-Box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 380px;
+    background: linear-gradient(to right, #D4C1F2, #89E2EE);
+    height: 580px;
+    border-radius: 8px;
+}
+
+.About-Box{
+    width:100%;
+    height:325px;
+    border:none;
+    border-radius: 40px;
+    background-color: whitesmoke;
+}
+
+.About-Button-Box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.About-Button{
+    background-color: black;
+    color:white;
+    font-family: "Nunito", sans-serif;
+    font-size: large;
+    font-weight:600;
+    width:70%;
+    height:40px;
+    border:none;
+    border-radius:40px;
+}

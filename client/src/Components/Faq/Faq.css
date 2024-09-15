@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Faq-Main-Box{
+    width: 380px;
+    background: linear-gradient(to right, #D4C1F2, #89E2EE);
+    height: 580px;
+    border-radius: 8px;
+}
+
+.Box{
+    display: flex;           /* Aligns the child elements in a row */
+    justify-content: space-between; /* Ensures there's space between the boxes */
+    width: 100%;             /* Takes full width of the container */
+    align-items: center;
+    height: 150px;
+    background-color: whitesmoke;
+    border-radius:20px;
+    margin-bottom: 5px;
+    border: 1px solid;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image1-box{
+    width: 40%;              /* Image div takes 40% of the parent width */
+    height: 100%;
+    text-align: center;
+}
+
+.content1-box{
+    width: 60%; 
+    height: 100%;
+    text-align: center;
+    
+}
+
+
+
+.image1{
+    height:90px;
+    width:90px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.image-text{
+    font-family:"Nunito", sans-serif;
+    font-weight: bold;
+}

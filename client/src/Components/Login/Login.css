@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.wrapper{
+    width: 380px;
+    background: white;
+    height: 580px;
+    border-radius: 8px;
+}
+.Login-Heading{
+    text-align: center;
+}
+
+.Login-Register{
+    text-align: center;
+    /* display:flex;
+    align-items: center; */
+    display: flex;
+    justify-content: center;  /* Horizontally centers the anchor tags */
+    align-items: center;      /* Vertically aligns the anchor tags (if needed) */
+    gap: 30px;                /* Adds space between the anchor tags */
+}
+
+.Login-Anchor{
+    color:rgb(49, 180, 255);
+    text-decoration: none; /* Remove the default underline */
+    position: relative;
+    box-shadow: inset 0 -1px 0 0 black; /* Simulated underline */
+    padding-bottom: 2.5px; /* Adjust the gap here */
+}
+
+.Register-Anchor{
+    text-align:center;
+    color:grey;
+    text-decoration: none;
+}
+
+.email-div{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.input-box-email{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;  /* Horizontally centers the anchor tags */
+    align-items: center;
+    color: grey;
+    border-bottom: 1.25px solid #000; /* Add an underline with desired thickness and color */
+    padding: 1px; /* Optional: Add padding if needed */
+    outline: none; /* Optionally remove the focus outline */
+}
+
+.email-box{
+    border: none;
+    outline:none;
+    width:280px;
+    height:20px;
+    font-size: large;
+}
+
+.input-box-register{
+    display: flex;
+    justify-content: center;  /* Horizontally centers the anchor tags */
+    align-items: center;
+    color: grey;
+    
+}
+.register-box{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.register-specific-box{
+    border: none;
+    outline:none;
+    width:280px;
+    height:20px;
+    font-size: large;
+}
+
+
+.register-underline{
+    margin-left:16px;
+    border-bottom: 1.25px solid #000; /* Add an underline with desired thickness and color */
+    padding: 1px; /* Optional: Add padding if needed */
+    outline: none; /* Optionally remove the focus outline */
+}
+
+.remember-forgot{
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    font-size:14px;
+    text-align: center;
+    color:grey;
+}
+
+.Login-Button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Login-Button-Style{
+    width:260px;
+    height:35px;
+    background-color: rgb(38, 124, 252);
+    color:white;
+    border:none;
+    border-radius: 8px;
+}
+.facebook-img{
+    height:30px;
+    width:30px;
+}
+
+.instagram-img{
+    height:30px;
+    width:30px;
+}
+
+.pinterest-img{
+    height:30px;
+    width:30px;
+}
+
+.linkedin-img{
+    height:30px;
+    width:30px;
+}
+
+.logo-box {
+    display: flex; /* Use Flexbox layout */
+    gap: 10px; /* Optional: Adds space between items */
+    align-items: center; /* Optional: Vertically center items */
+    justify-content: center;
+  }
+.fingerlogo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 38px;
+}
+.fingerprint-logo{
+    height:48px;
+    width:48px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    backdrop-filter: blur(10px);
+    background: linear-gradient(to bottom right, rgba(144, 238, 144, 0.3), rgba(186, 85, 211, 0.3));
+
+
+
+  }

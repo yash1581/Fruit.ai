@@ -1,0 +1,65 @@
+.Chat-Main-Box {
+    width: 380px;
+    background: white;
+    height: 580px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Chat-Messages {
+    flex: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: #f9f9f9;
+  }
+  
+  .Chat-Message {
+    padding: 8px;
+    border-radius: 4px;
+    margin: 5px 0;
+    max-width: 80%;
+    word-wrap: break-word;
+  }
+  
+  .Chat-Message.User {
+    background: #e1ffc7;
+    align-self: flex-end;
+  }
+  
+  .Chat-Message.Bot {
+    background: #f1f1f1;
+    align-self: flex-start;
+  }
+  
+  .Chat-Input-Box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .Chat-Input-Box input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .Chat-Input-Box button {
+    padding: 8px 12px;
+    border: none;
+    border-radius: 4px;
+    background: #007bff;
+    color: white;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  
+  .Chat-Input-Box button:hover {
+    background: #0056b3;
+  }
+  

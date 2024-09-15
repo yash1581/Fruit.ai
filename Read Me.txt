@@ -1,0 +1,50 @@
+Fruit.ai - Health Manager App
+Overview
+Fruit.ai is a health management app with features like a chatbot, translator, FAQ management, and more.
+
+Frontend
+Clone & Install:
+
+bash
+Copy code
+git clone https://github.com/your-username/fruit-ai-frontend.git
+cd fruit-ai-frontend
+npm install
+Run Development Server:
+
+bash
+Copy code
+npm start
+Build for Production:
+
+bash
+Copy code
+npm run build
+Backend
+Clone & Setup:
+
+bash
+Copy code
+git clone https://github.com/your-username/fruit-ai-backend.git
+cd fruit-ai-backend
+python -m venv venv
+source venv/bin/activate  # Windows: `venv\Scripts\activate`
+pip install -r requirements.txt
+Run Server:
+
+bash
+Copy code
+flask run
+Configuration
+Frontend: Set API URL in .env:
+env
+Copy code
+REACT_APP_API_URL=http://localhost:5000
+Deployment
+Frontend: Live Demo
+Backend: Live Demo
+Repositories
+Frontend: GitHub
+Backend: GitHub
+License
+MIT License. See LICENSE for details.

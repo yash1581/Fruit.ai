@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.home-main-box{
+    width: 380px;
+    background: linear-gradient(to right, #D4C1F2, #89E2EE);
+    height: 580px;
+    border-radius: 8px;
+}
+
+.Home-Heading{
+    color: white;
+    text-align: center;
+    font-family: "Nunito", sans-serif;
+}
+
+.Block-One, .Block-Two{
+    display:flex;
+    justify-content: center;
+    gap:45px;
+}
+
+.Chat, .Translator, .Faq, .About{
+    height:120px;
+    width:120px;
+    border: none;
+    border-radius:8px;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.Chat{
+    background-color: #ffe4c4;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Chat-Box-Title{
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+    color: rgb(193, 28, 191);
+}
+
+.Translator{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#98dbff;
+}
+
+.Google-Translator-Logo{
+    height:60px;
+    width:60px;
+}
+
+.Faq{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color:rgb(200, 175, 238);
+}
+
+.Faq-Box-Title{
+    color:rgb(44, 44, 139);
+    font-family: "Nunito", sans-serif;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+
+.About{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 188, 237);
+}
+
+.About-Box-Title{
+    color:rgb(223, 15, 250);
+    font-family: "Nunito", sans-serif;
+    font-size: 30px;
+    font-weight: bolder;
+}
